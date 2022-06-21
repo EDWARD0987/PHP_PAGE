@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum install httpd -y
-sud yum install php -y
+sudo yum install php -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
 sudo usermod -a -G apache ec2-user
